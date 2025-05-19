@@ -51,7 +51,7 @@ then
 fi
 
 # TODO: Create necessary base directories
-mkdir -p ${OUTDIR}/rootfs/{bin,sbin,etc,proc,sys,usr/{bin,sbin,lib},lib,lib64,dev,home,tmp,var{log}}
+mkdir -p ${OUTDIR}/rootfs/{bin,sbin,etc,proc,sys,usr/{bin,sbin,lib},lib,lib64,dev,home,tmp,var/{log}}
 
 cd "$OUTDIR"
 if [ ! -d "${OUTDIR}/busybox" ]
